@@ -1,8 +1,9 @@
 import "./App.css";
-import Error from "./component/Error";
-import Loading from "./component/Loading";
 import axios from "axios";
 import useSWR from "swr";
+
+import Error from "./component/Error";
+import Loading from "./component/Loading";
 import UserCard from "./component/UserCard";
 
 const fetcher = (url) => axios.get(url).then((res) => res.data);
