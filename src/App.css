@@ -28,6 +28,18 @@
   padding: 0;
   margin: 0;
 }
+.content h2 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+.content p {
+  margin: 0;
+  margin-bottom: 20px;
+}
+.content p a {
+  color: white;
+  font-weight: 600;
+}
 
 .App-link {
   color: #61dafb;

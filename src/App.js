@@ -17,6 +17,10 @@ function App() {
     <div className="App">
       <div className="content">
         <h2>useSWR Example</h2>
+        <p>
+          This is a simple example of using{" "}
+          <a href="https://swr.now.sh/">useSWR</a> to fetch data from a URL.
+        </p>
         <UserCard user={data.results[0]} />
       </div>
     </div>
